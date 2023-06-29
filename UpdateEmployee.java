@@ -8,7 +8,7 @@ import java.sql.*;
 
 public class UpdateEmployee extends JFrame implements ActionListener{
 
-    JTextField tfeducation, tffname, tfaddress, tfphone, tfaadhar, tfemail, tfsalary, tfdesignation;
+    JTextField tfeducation, tffname, tfaddress, tfphone, tfaadhar, tfemail, tfsalary, tfdesignation,lblname;
     JLabel lblempId1;
     JButton add, back;
     String empId;
@@ -30,7 +30,7 @@ public class UpdateEmployee extends JFrame implements ActionListener{
         labelname.setFont(new Font("serif", Font.PLAIN, 20));
         add(labelname);
 
-        JLabel lblname = new JLabel();
+        lblname = new JTextField();
         lblname.setBounds(200, 150, 150, 30);
         add(lblname);
 
@@ -41,7 +41,7 @@ public class UpdateEmployee extends JFrame implements ActionListener{
         add(labelfname);
 
         tffname = new JTextField();
-        tffname.setBounds(200, 150, 150, 30);
+        tffname.setBounds(600, 150, 150, 30);
         add(tffname);
 
 
