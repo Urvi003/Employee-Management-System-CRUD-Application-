@@ -1,4 +1,4 @@
-# Employee-Management-System-CRUD-Application-
+# Employee-Management-System-CRUD-Application
 INTERNSAVY INTERNSHIP
 
 I have developed an Employee Management System using Java and the Swing framework as a part of my InternSavy internship. This application serves as a comprehensive solution for efficiently managing employee records within an organization. With its user-friendly interface, robust functionality, and seamless integration with MySQL, it provides seamless CRUD (Create, Read, Update, Delete) operations while maintaining data integrity.
